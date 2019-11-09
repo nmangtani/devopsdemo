@@ -1,0 +1,33 @@
+{
+  "name": "myhealthclinic2017",
+  "version": "1.0.0",
+  "description": "devops-demo",
+  "main": "Script1.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "gulp-sass": "^4.0.2",
+    "webdriver-manager": "^12.1.6"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "protractor": "^5.4.2"
+  },
+  "scripts": {
+    "webdriver-start": "webdriver-manager start --detach",
+    "webdriver-update": "webdriver-manager update",
+    "webdriver-update-chrome": "webdriver-manager update --versions.chrome 77.0.3865.10",
+    "e2e": "protractor conf.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/microsoft/myhealthclinic2017.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/microsoft/myhealthclinic2017/issues"
+  },
+  "homepage": "https://github.com/microsoft/myhealthclinic2017#readme"
+}
