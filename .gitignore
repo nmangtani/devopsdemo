@@ -1,17 +1,22 @@
 ﻿################################################################################
 # This .gitignore file was automatically created by Microsoft(R) Visual Studio.
 ################################################################################
-
+/node_modules
+/src/MyHealth.Web/node_modules
 /.vs
 /obj
 /src/MyHealth.API/obj
+/src/MyHealth.API/bin
 /src/MyHealth.API/bin/Debug/netstandard1.6
 /src/MyHealth.Web/bin/Debug/netcoreapp1.0
 /src/MyHealth.Web/obj
+/src/MyHealth.Web/bin
+/src/MyHealth.Model/bin
 /src/MyHealth.Model/bin/Debug/netstandard1.6
 /src/MyHealth.Model/obj
 /src/MyHealth.Data/bin/Debug/netstandard1.6
 /src/MyHealth.Data/obj
+/src/MyHealth.Data/bin
 /src/MyHealth.Helpers/obj
 /test/MyHealth.API.IntegrationTests/obj
 /test/MyHealth.API.IntegrationTests/bin/Debug/netcoreapp1.0
