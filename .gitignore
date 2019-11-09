@@ -4,6 +4,7 @@
 /node_modules
 /src/MyHealth.Web/node_modules
 /.vs
+/.vscode
 /obj
 /src/MyHealth.API/obj
 /src/MyHealth.API/bin
