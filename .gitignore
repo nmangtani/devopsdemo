@@ -3,6 +3,7 @@
 ################################################################################
 /node_modules
 /src/MyHealth.Web/node_modules
+/src/MyHealth.Web/wwwroot/**
 /.vs
 /.vscode
 /obj
